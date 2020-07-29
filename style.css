@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(88, 28, 43);
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 26px;
+}
+
+.warning {
+    color: tomato;
+}
+
+.inputField {
+    margin: 0 auto; 
+    max-width: 400px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px
+}
+
+.inputField p {
+    font-size: 22px;
+    background-color: rgb(139, 53, 38);
+    padding: 10px;
+    text-align: center;
+}
+
+.inputField input {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+}
+
+.inputField button {
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(167, 80, 64);
+    border: none;
+    border-radius: 8px;
+}
+
+.inputField button:hover {
+    background-color: teal;
+    color: white;
+    transition: all 400ms;
+}

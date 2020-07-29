@@ -4,10 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bin 2 Dec</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1>Binary to decimal calculator</h1>
     <div class="inputField">
-        <input type="text" id="binary" maxLength="8" size="8" />
+        <p>Type here the binary number you want to convert. 
+            <span class="warning">
+                It must have a maximum of 8 digits and you must type only "0" or "1"
+            </span>.
+        </p>
+        <input type="text" id="binary" maxLength="8" />
         <button onclick="getValue()"> Convert </button>
     </div>
     <!-- Answer -->
