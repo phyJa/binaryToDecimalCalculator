@@ -1,9 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: rgb(88, 28, 43);
     color: white;
 }
 
 h1 {
+    margin: 20px;
     text-align: center;
 }
 
@@ -17,11 +25,11 @@ p {
 }
 
 .inputField {
-    margin: 0 auto; 
+    margin: 20px auto; 
     max-width: 400px;
     display: grid;
     grid-template-columns: 1fr;
-    gap: 12px
+    gap: 20px
 }
 
 .inputField p {
@@ -35,8 +43,16 @@ p {
     text-align: center;
     padding: 10px;
     font-size: 20px;
-    border-radius: 8px;
     border: none;
+    outline: none;
+    color: white;
+    background: none;
+    border-bottom: rgb(88, 28, 43) 2px solid;
+}
+
+.inputField input:focus {
+    border-bottom: tomato 2px solid;
+    transition: border-bottom 300ms;
 }
 
 .inputField button {
@@ -45,6 +61,7 @@ p {
     background-color: rgb(167, 80, 64);
     border: none;
     border-radius: 8px;
+    outline: none;
 }
 
 .inputField button:hover {
