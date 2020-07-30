@@ -1,7 +1,7 @@
 # Binary To Decimal Calculator
 
 ## Introduction
-This project was inspired on the first idea from the App-Ideas repository. It calculates a decimal number through a binary number input.
+This project was inspired on the first idea from the [App-Ideas repository](https://github.com/florinpop17/app-ideas). It calculates a decimal number through a binary number input.
 
 ## Features
 - [x] One can insert up to 32 digits of binary number
