@@ -5,9 +5,34 @@
     box-sizing: border-box;
 }
 
+:root {
+    --color-main-theme: rgb(88, 28, 43);
+}
+
 body {
-    background-color: rgb(88, 28, 43);
+    background-color: var(--color-main-theme);
     color: white;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+header .links {
+    text-align: center;
+}
+
+header .links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 20px;
+}
+
+header .links a:hover {
+    color: tomato;
+    transition: color 400ms;
 }
 
 h1 {
