@@ -11,7 +11,7 @@ function getValue() {
             if(value[letter] !== "0" && value[letter] !== "1") 
                 throw `Error: you must type only 0 or 1. You typed '${value[letter]}' at your char number ${letter + 1}.`;
             else {
-                document.getElementById("answer").innerHTML = `The correspoding 
+                document.getElementById("answer").innerHTML = `The corresponding 
                 decimal number of ${value} is ` +
                 "<br />" +
                 "<span style='color: lightgreen; font-size: 40px'>" +
