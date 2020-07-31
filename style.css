@@ -83,3 +83,8 @@ p {
 ::-ms-input-placeholder { /* Microsoft Edge */
  color: tomato;
 }
+
+/* ==== Answer ==== */
+#answer {
+    margin-bottom: 20px;
+}
