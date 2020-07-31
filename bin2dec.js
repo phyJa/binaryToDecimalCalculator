@@ -3,7 +3,9 @@ function getValue() {
     try {
         // If the user type nothing
         if (value === "") throw "Please type your binary number";
+
         let numberLength = value.length;
+        
         for(let letter = 0 ; letter < numberLength; letter++) {
             //If the user type something different from 0 and 1
             if(value[letter] !== "0" && value[letter] !== "1") 
