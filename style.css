@@ -17,6 +17,7 @@ body {
 header {
     background-color: rgba(0, 0, 0, 0.2);
     padding: 20px;
+    height: 10vh;
 }
 
 header .links {
@@ -33,6 +34,17 @@ header .links a {
 header .links a:hover {
     color: tomato;
     transition: color 400ms;
+}
+
+main {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    margin: 1vw auto;
+    border: 2px solid tomato;
+    border-radius: 8px;
 }
 
 h1 {

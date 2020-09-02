@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <header>
         <div class="links">
             <a href="https://github.com/florinpop17/app-ideas" target="_blank"> Project inspiration </a>
@@ -14,16 +15,22 @@
             <a href="https://www.linkedin.com/in/elias-bueno-5b089a1b0/" target="_blank"> Linked In </a>
         </div>
     </header>
-    <h1>Binary to decimal calculator</h1>
-    <div class="inputField">
-        <p>Type below the binary number you want to convert. 
-            <span class="warning">
-                It must have a maximum of 32 digits and you must type only "0" or "1"
-            </span>.
-        </p>
-        <input type="text" id="binary" maxLength="32" placeholder="Type your binary number here..." />
-        <button onclick="getValue()"> Convert </button>
-    </div>
+
+    <main>
+        <div class="inputField">
+            <h1>Binary to decimal calculator </h1>
+            <p>Type below the binary number you want to convert. 
+                <span class="warning">
+                    It must have a maximum of 32 digits and you must type only "0" or "1"
+                </span>.
+            </p>
+
+            <input type="text" id="binary" maxLength="32" placeholder="Type your binary number here..." />
+
+            <button onclick="getValue()"> Convert </button>
+        </div>
+    </main>
+
     <!-- Answer -->
     <p id="answer"></p>
     <script src="bin2dec.js"></script>
